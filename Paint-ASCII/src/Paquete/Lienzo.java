@@ -8,7 +8,7 @@ public class Lienzo {
     public Lienzo(int largo, int ancho) {
         this.largo = largo;
         this.ancho = ancho;
-        this.matriz = new char [(this.largo+2)][(this.ancho+2)];
+        this.matriz = new char [this.largo][this.ancho];
     }
 
     public int getLargo() {
@@ -61,14 +61,26 @@ public class Lienzo {
         matriz[largo-1][1] = '┐';
         matriz [largo-1][ancho-1] = '┘';
         
-        for(int i = 0; i<ancho; i++){
+       mostrarLienzo();
+    }
+    
+  public boolean pintar(int fila, int columna, char c){
+      boolean respuesta = false;
+      if(columna<=0 || columna>=largo || fila<=0 || fila>=ancho){
+          respuesta = false; 
+      }else{
+          matriz[columna][fila] = c;
+          respuesta = true;
+      }
+    return respuesta;
+  }
+  public void mostrarLienzo(){
+      for(int i = 0; i<ancho; i++){
             for(int j=0;  j<largo; j++){
                 System.out.print(matriz[j][i]);
             }
             System.out.println("");
         }
-    }
-    
-    
+  }
     
 }

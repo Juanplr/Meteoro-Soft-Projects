@@ -15,6 +15,8 @@ public class Main {
         
         Lienzo l = new Lienzo(largo+1, ancho+1);
         l.crearLienzo();
+        l.pintar(-1, -1, 'a');
+        l.mostrarLienzo();
     }
     
 }
