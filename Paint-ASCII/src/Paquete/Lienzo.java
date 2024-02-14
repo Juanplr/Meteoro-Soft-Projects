@@ -1,5 +1,7 @@
 package Paquete;
 
+import java.io.IOException;
+
 public class Lienzo {
     private int largo;
     private int ancho;
@@ -74,6 +76,15 @@ public class Lienzo {
       }
     return respuesta;
   }
+  
+  
+  public static void LimpiarConsola() throws IOException {
+    for (int i = 0; i < 50; i++) {
+        System.out.println();
+    }
+}
+  
+  
   public void mostrarLienzo(){
       for(int i = 0; i<ancho; i++){
             for(int j=0;  j<largo; j++){
@@ -104,5 +115,6 @@ public class Lienzo {
       
       System.out.println(lienzo);
   }
-    
+  
+  
 }

@@ -1,10 +1,11 @@
 package Paquete;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int largo;
         int ancho;
         int x;
@@ -39,6 +40,7 @@ public class Main {
                             System.out.println("Da el caracter:");
                             caracter = lectura.next().charAt(0);
                             l.pintar(y, x, caracter);
+                            l.LimpiarConsola();
                             break;
                         case 2:
                             bandera2 = false;
