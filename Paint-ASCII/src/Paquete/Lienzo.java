@@ -4,6 +4,7 @@ public class Lienzo {
     private int largo;
     private int ancho;
     private char [][] matriz;
+    private String nombre;
 
     public Lienzo(int largo, int ancho) {
         this.largo = largo;
@@ -104,5 +105,16 @@ public class Lienzo {
       
       System.out.println(lienzo);
   }
+
+    public boolean eliminarC(int fila, int columna) {
+        boolean respuesta = false;
+        if(columna<=0 || columna>=largo || fila<=0 || fila>=ancho){
+            respuesta = false; 
+        }else{
+            matriz[columna][fila] = ' ';
+            respuesta = true;
+        }
+      return respuesta;
+    }
     
 }

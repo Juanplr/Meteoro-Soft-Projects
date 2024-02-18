@@ -41,6 +41,14 @@ public class Main {
                             l.pintar(y, x, caracter);
                             break;
                         case 2:
+                           System.out.println("Da la cordenada en X:");
+                            x = lectura.nextInt();
+                            System.out.println("Da la cordenada en Y:");
+                            y = lectura.nextInt();
+                            l.eliminarC(y,x);
+                            System.out.println("Caracter eliminado");
+                            break;
+                        case 3:
                             bandera2 = false;
                             break;
                         default:
