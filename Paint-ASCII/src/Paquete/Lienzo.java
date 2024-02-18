@@ -1,5 +1,6 @@
 package Paquete;
 
+import java.io.*;
 import java.io.IOException;
 
 public class Lienzo {
@@ -37,6 +38,15 @@ public class Lienzo {
     public void setMatriz(char[][] matriz) {
         this.matriz = matriz;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    
     
     public void crearLienzo(){
         for(int i = 1; i<ancho; i++){
@@ -94,29 +104,6 @@ public class Lienzo {
             System.out.println("");
         }
   }
-  public void pintarA(){
-      String lienzo;
-      lienzo = "           ....\n" +
-"         ,''. :   __\n" +
-"             \\|_.'  `:       _.----._//_\n" +
-"            .'  .'.`'-._   .'  _/ -._ \\)-.----O\n" +
-"           '._.'.'      '--''-'._   '--..--'-`\n" +
-"            .'.'___    /`'---'. / ,-'`\n" +
-"snd       _<__.-._))../ /'----'/.'_____:'.\n" +
-"   \\_    :            \\ ]              :  '.\n" +
-"     \\___:             \\\\              :    '.\n" +
-"         :              \\\\__           :    .'\n" +
-"         :_______________|__]__________:  .'\n" +
-"                    .' __ '.           :.'\n" +
-"                  .' .'  '. '.\n" +
-"                .' .'      '. '.\n" +
-"              .' .'          '. '.\n" +
-"           _.' .'______________'. '._\n" +
-"          [_0______________________0_]";
-      
-      System.out.println(lienzo);
-  }
-
     public boolean eliminarC(int fila, int columna) {
         boolean respuesta = false;
         if(columna<=0 || columna>=largo || fila<=0 || fila>=ancho){
@@ -126,6 +113,28 @@ public class Lienzo {
             respuesta = true;
         }
       return respuesta;
+    }
+
+    public boolean exportar() {
+        File archivo = null;
+		FileWriter fw = null;
+		BufferedWriter bw = null;
+		try{
+			archivo = new File("./"+nombre+".txt");
+			fw = new FileWriter(archivo);
+			bw = new BufferedWriter(fw);
+                        for(int i = 1; i<ancho; i++){
+                            for(int j=1;  j<largo; j++){
+                                bw.write(matriz[j][i]);
+                            }
+                            bw.write("\n");
+                        }
+			bw.flush();
+			fw.close();
+		}catch(Exception e){
+			System.out.println(e.getMessage());
+		}
+       return true;
     }
 
 }
