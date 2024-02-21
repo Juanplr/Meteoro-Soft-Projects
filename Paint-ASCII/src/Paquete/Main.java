@@ -33,12 +33,14 @@ public class Main {
                         LienzoManuel l = new LienzoManuel(largo+1, ancho+1);
                         String nombrel;
                         l.crearLienzo();
+                        l.mostrarLienzo();
                         while (bandera2) {                    
                             System.out.println("Escoge una opcion");
                             System.out.println("1)Pintar un caracter");
                             System.out.println("2)Borrar un Caracter");
                             System.out.println("3)Exportar lienzo");
-                            System.out.println("4)Salir al menu Principal");
+                            System.out.println("4)Borrar todo el Lienzo");
+                            System.out.println("5)Salir al menu Principal");
                             opcion = lectura.nextInt();
                             switch (opcion) {
                                 case 1:
@@ -69,6 +71,9 @@ public class Main {
                                     }
                                     break;
                                 case 4:
+                                    l.crearLienzo();
+                                    break;
+                                case 5:
                                     System.out.println("Regresando al menu principal");
                                     bandera2 = false;
                                     break;

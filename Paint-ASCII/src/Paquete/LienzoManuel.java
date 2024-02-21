@@ -45,8 +45,6 @@ public class LienzoManuel extends Lienzo{
         matriz[1][ancho-1] = '└';
         matriz[largo-1][1] = '┐';
         matriz [largo-1][ancho-1] = '┘';
-        
-       mostrarLienzo();
     }
 
     public boolean pintar(int fila, int columna, char c) {
@@ -121,5 +119,8 @@ public class LienzoManuel extends Lienzo{
         return false;
     }
     
-    
+    public boolean eliminarTL(){
+        crearLienzo();
+        return true;
+    }
 }
