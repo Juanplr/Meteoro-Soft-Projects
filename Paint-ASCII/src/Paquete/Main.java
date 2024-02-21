@@ -89,12 +89,20 @@ public class Main {
                         System.out.println("2)Exportar");
                         System.out.println("3)Salir");
                         opcion = lectura.nextInt();
+                        LienzoAutomatico la = new LienzoAutomatico(100,100);
                         switch (opcion) {
                                 case 1:
-                                    
+                                   la.mostrarLienzo();
                                     break;
                                 case 2:
-                                   
+                                    String nombrea;
+                                   lectura.nextLine();
+                                    System.out.println("Ponle un nombre al lienzo");
+                                    nombrea = lectura.nextLine();
+                                    la.setNombre(nombrea);
+                                    if(la.exportar()){
+                                        System.out.println("Exportado correctamente");
+                                    }
                                     break;
                                 case 3:
                                     System.out.println("Regresando al menu principal");
