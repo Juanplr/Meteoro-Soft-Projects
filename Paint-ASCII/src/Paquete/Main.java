@@ -30,7 +30,7 @@ public class Main {
                     System.out.println("Ingrese el largo del lienzo: ");
                     largo = lectura.nextInt();
                     if(ancho >0 && largo>0){
-                        Lienzo l = new Lienzo(largo+1, ancho+1);
+                        LienzoManuel l = new LienzoManuel(largo+1, ancho+1);
                         String nombrel;
                         l.crearLienzo();
                         while (bandera2) {                    
