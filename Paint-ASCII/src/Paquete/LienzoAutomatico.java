@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Paquete;
 
 import java.io.BufferedWriter;
@@ -51,7 +48,7 @@ public class LienzoAutomatico extends Lienzo {
                 + "`;;;;;        ;_.---------------'\n"
                 + "  `;;;         (\n"
                 + "    `;.        )";
-        lienzoarrray[3] = "  |_|_|\n"
+        lienzoarrray[2] = "  |_|_|\n"
                 + "      \\_|||;;_/\n"
                 + "     \\d||%||%:b/               |_|_|\n"
                 + "    \\d~|dO%|i::b/            \\_|||;;_/\n"
@@ -73,7 +70,7 @@ public class LienzoAutomatico extends Lienzo {
                 + "    |;|#H#|;;;: |          |           |\n"
                 + "     |;|#H#|;: |           |           |\n"
                 + "      =========             |_________|";
-        lienzoarrray[4] = "            ,-._\n"
+        lienzoarrray[3] = "            ,-._\n"
                 + "           _.-'  '--.\n"
                 + "         .'      _  -`\\_\n"
                 + "        / .----.`_.'----'\n"
@@ -82,16 +79,16 @@ public class LienzoAutomatico extends Lienzo {
                 + "\n"
                 + "    ._      ._      ._      ._\n"
                 + "_.-._)`\\_.-._)`\\_.-._)`\\_.-._)`\\_.-._";
-        lienzoarrray[5] = " _._     _,-'\"\"`-._\n"
+        lienzoarrray[4] = " _._     _,-'\"\"`-._\n"
                 + "(,-.`._,'(       |\\`-/|\n"
                 + "    `-.-' \\ )-`( , o o)\n"
                 + "          `-    \\`_`\"'-";
-        lienzoarrray[6] = "(\"`-''-/\").___..--''\"`-._ \n"
+        lienzoarrray[5] = "(\"`-''-/\").___..--''\"`-._ \n"
                 + " `6_ 6  )   `-.  (     ).`-.__.`) \n"
                 + " (_Y_.)'  ._   )  `._ `. ``-..-' \n"
                 + "   _..`--'_..-_/  /--'_.'\n"
                 + "  ((((.-''  ((((.'  (((.-' ";
-        lienzoarrray[7] = " _________         .    .\n"
+        lienzoarrray[6] = " _________         .    .\n"
                 + "(..       \\_    ,  |\\  /|\n"
                 + " \\       O  \\  /|  \\ \\/ /\n"
                 + "  \\______    \\/ |   \\  / \n"
@@ -101,11 +98,11 @@ public class LienzoAutomatico extends Lienzo {
                 + "      / /\\_   \\ /      |\n"
                 + "      |/   \\_  \\|      /\n"
                 + " snd         \\________/";
-        lienzoarrray[8] = " sjw       ..----.._    _\n"
+        lienzoarrray[7] = " sjw       ..----.._    _\n"
                 + "            .' .--.    \"-.(O)_\n"
                 + "'-.__.-'\"'=:|  ,  _)_ \\__ . c\\'-..\n"
                 + "             ''------'---''---'-\"";
-        lienzoarrray[9] = "######################################################################################\n"
+        lienzoarrray[8] = "######################################################################################\n"
                 + "#                                                                                    # \n"
                 + "#                            ,.--------._                                            #\n"
                 + "#                           /            ''.                                         #\n"
@@ -142,7 +139,7 @@ public class LienzoAutomatico extends Lienzo {
                 + "# (______/           |_| |_|        |_|            \\_____)         |_| \\_)           #\n"
                 + "#                                                                           19.08.02 #\n"
                 + "######################################################################################";
-        lienzoarrray[10] = "                  .-.\n"
+        lienzoarrray[9] = "                  .-.\n"
                 + "                      |_:_|\n"
                 + "                     /(_Y_)\\\n"
                 + ".                   ( \\/M\\/ )\n"
@@ -164,7 +161,7 @@ public class LienzoAutomatico extends Lienzo {
                 + "      snd |     : : :_/_|  /'._\\  '--|_\\\n"
                 + "          /___.-/_|-'   \\  \\\n"
                 + "                         '-'";
-        lienzoarrray[11] = "-\"'\"-.\n"
+        lienzoarrray[10] = "-\"'\"-.\n"
                 + "             |       |  \n"
                 + "           (`-._____.-')\n"
                 + "        ..  `-._____.-'  ..\n"
@@ -182,7 +179,7 @@ public class LienzoAutomatico extends Lienzo {
                 + "||||\\)   .-'    / \\    `-.   (/||||\n"
                 + "\\|||    (`.___.')-(`.___.')    |||/\n"
                 + " '\"' jgs `-----'   `-----'     '\"'";
-        lienzoarrray[12] = ".-\"\".   _____   .\"\"-.\n"
+        lienzoarrray[11] = ".-\"\".   _____   .\"\"-.\n"
                 + " //.==.\\ (*****) /.==.\\\\\n"
                 + ";//:::'||,;;;;;,||.:::\\\\;\n"
                 + "||::::.\\((((/\\)))/.::::||\n"
@@ -206,7 +203,7 @@ public class LienzoAutomatico extends Lienzo {
                 + "    jgs |       |\n"
                 + "        |:.:.:.:|\n"
                 + "        :':':':':";
-        lienzoarrray[13] = "              _.--\"\"`-..\n"
+        lienzoarrray[12] = "              _.--\"\"`-..\n"
                 + "            ,'          `.\n"
                 + "          ,'          __  `.\n"
                 + "         /|          \" __   \\\n"
@@ -240,7 +237,7 @@ public class LienzoAutomatico extends Lienzo {
                 + "   -\" /`.         _,'     | _  _  _.|\n"
                 + "    \"\"--'---\"\"\"\"\"'        `' '! |! /\n"
                 + "                            `\" \" -' mh";
-        lienzoarrray[14] = " T\\ T\\\n"
+        lienzoarrray[13] = " T\\ T\\\n"
                 + "                | \\| \\\n"
                 + "                |  |  :\n"
                 + "           _____I__I  |\n"
@@ -265,7 +262,7 @@ public class LienzoAutomatico extends Lienzo {
                 + ".'.       '.  Y    _.'             \\,         :\n"
                 + " .          '-----'                 !          .\n"
                 + " .           /  \\                   .          .";
-        lienzoarrray[15] = "        __,__\n"
+        lienzoarrray[14] = "        __,__\n"
                 + "        .--.  .-\"     \"-.  .--.\n"
                 + "       / .. \\/  .-. .-.  \\/ .. \\\n"
                 + "      | |  '|  /   Y   \\  |'  | |\n"
@@ -291,32 +288,31 @@ public class LienzoAutomatico extends Lienzo {
                 + "           | |     \\'.\n"
                 + "            \\ '....' |\n"
                 + "             '.,___.'";
-        lienzoarrray[16] = "  `|.                                       \n"
+        lienzoarrray[15] = "  `|.                                       \n"
                 + " |:\\-,              .| \\.\n"
                 + " |: `.------------------------------------.\n"
                 + " / /   o o o o o o o o o o o o o.-.o o   (_`. \n"
                 + "/_ \\_              .     .=     |'|         `)  \n"
                 + "     ``\"\"\"\"\"\"\"\"\"\"\"//    /  \"\"\"\"\" `\"\"\"------\"'";
-        lienzoarrray[17] = " _____    \n"
-                + "/  _/\\\\  \n"
-                + "| / oo\n"
-                + "\\(   _\\\n"
-                + " \\  O/\n"
-                + " /   \\\n"
-                + " ||  ||\n"
-                + " ||  ||      \"Hmmmmmmmm...\"\n"
-                + " ||  || _____ /\n"
-                + " | \\ ||(___  )\n"
-                + "// / \\|_)o (  )\n"
-                + "\\\\ ///|)\\_(    )\n"
-                + " ||   |\\ )(    )\n"
-                + " ||   ) \\/(____)_     ___\n"
-                + " ||   |\\___/     `---' `.`.\n"
-                + " ||   | :   _       .'   ))\n"
-                + " ||   | `..' `~~~-.'   .'__ _\n"
-                + " \\\\  /           '.______  ( (\n"
-                + " ((___ooO                `._\\_\\ jro";
-        lienzoarrray[18] = "     _..-----._\n"
+        lienzoarrray[16] = "     _.._   _..---.\n" +
+                "  .-\"    ;-\"       \\\n" +
+                " /      /           |\n" +
+                "|      |       _=   |\n" +
+                ";   _.-'\\__.-')     |\n" +
+                " `-'      |   |    ;\n" +
+                "          |  /;   /      _,\n" +
+                "        .-.;.-=-./-\"\"-.-` _`\n" +
+                "       /   |     \\     \\-` `,\n" +
+                "      |    |      |     |\n" +
+                "      |____|______|     |\n" +
+                "       \\0 / \\0   /      /\n" +
+                "    .--.-\"\"-.`--'     .'\n" +
+                "   (#   )          ,  \\\n" +
+                "   ('--'          /\\`  \\\n" +
+                "    \\       ,,  .'      \\\n" +
+                "     `-._    _.'\\        \\\n" +
+                "jgs      `\"\"`    \\        \\";
+        lienzoarrray[17] = "     _..-----._\n"
                 + "                  .'          '.\n"
                 + "                 /              \\\n"
                 + "                |                ;\n"
@@ -338,7 +334,7 @@ public class LienzoAutomatico extends Lienzo {
                 + "     `\"'-.,__    ___.-'    .-'\n"
                 + "    jgs  `-._````  __..--'`\n"
                 + "             ``````";
-        lienzoarrray[19] = "   __\n"
+        lienzoarrray[18] = "   __\n"
                 + "    .-'  |\n"
                 + "   /   <\\|\n"
                 + "  /     \\'\n"
@@ -352,7 +348,7 @@ public class LienzoAutomatico extends Lienzo {
                 + "   |____)_) [n4biS]";
 
         Random random = new Random();
-        int numrandom = random.nextInt(19);
+        int numrandom = random.nextInt(18);
         lienzo = lienzoarrray[numrandom];
         System.out.println("Tamañno del liezoarray es: ´" + lienzoarrray[numrandom].length());
         System.out.println("Tamaño del lienzo es: " + lienzo.length());
