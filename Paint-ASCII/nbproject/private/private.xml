@@ -3,10 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/juanl/Documents/NetBeansProjects/Paint-ASCII/src/Paquete/LienzoAutomatico.java</file>
             <file>file:/C:/Users/juanl/Documents/NetBeansProjects/Paint-ASCII/src/Paquete/Main.java</file>
             <file>file:/C:/Users/juanl/Documents/NetBeansProjects/Paint-ASCII/src/Paquete/Lienzo.java</file>
             <file>file:/C:/Users/juanl/Documents/NetBeansProjects/Paint-ASCII/src/Paquete/LienzoManuel.java</file>
+=======
+            <file>file:/C:/Users/14-dq2521/Documents/Meteoro-Soft-Projects/Paint-ASCII/src/Paquete/Main.java</file>
+            <file>file:/C:/Users/14-dq2521/Documents/Meteoro-Soft-Projects/Paint-ASCII/src/Paquete/LienzoAutomatico.java</file>
+            <file>file:/C:/Users/14-dq2521/Documents/Meteoro-Soft-Projects/Paint-ASCII/src/Paquete/Lienzo.java</file>
+            <file>file:/C:/Users/14-dq2521/Documents/Meteoro-Soft-Projects/Paint-ASCII/src/Paquete/LienzoManuel.java</file>
+>>>>>>> 947a1e7da3733ddaf1e7a54eb212524e15f57ca0
         </group>
     </open-files>
 </project-private>
